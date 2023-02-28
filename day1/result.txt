@@ -1,0 +1,5 @@
+
+sum of ur nums =10
+sub of ur nums =0
+divisionof ur nums =1
+multiplication of ur nums =25
