@@ -1,0 +1,14 @@
+const AJV = require("ajv")
+const ajv = new AJV();
+const courseschema = {
+    type: "object",
+    properties: {
+        
+        name: { type: "string" }
+    },
+    required: ["name"],
+    additionalProperties: false
+
+}
+
+module.exports=ajv.compile(courseschema);
